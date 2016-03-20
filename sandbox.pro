@@ -17,7 +17,10 @@ CONFIG(release, debug|release) {
 }
 
 Media.files += \
-    README
+    README \
+    res/"s.a.x. Software License.txt" \
+    res/saxmono.ttf
+
 
 mac {
     INCLUDEPATH += /usr/local/include
